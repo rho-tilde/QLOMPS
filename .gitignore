@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+dist/
+build/
+
+# Credentials and local provider configuration
+.env
+*.pem
+*.key
+
+# Experimental outputs are deliberately excluded from this code repository.
+runs/
+results/
+data/
+*.qpy
+*.npz
+*.npy
+*.csv
+*.jsonl
+
