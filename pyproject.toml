@@ -18,11 +18,15 @@ ibm-exact-parser = [
   "pytket>=2",
   "pytket-qiskit>=0.70",
 ]
+quantinuum = [
+  "qnexus",
+  "pytket>=2",
+  "pytket-quantinuum",
+]
 test = ["pytest>=8"]
 
 [tool.setuptools.packages.find]
-where = ["IBM"]
+where = ["IBM", "Quantinuum"]
 
 [tool.pytest.ini_options]
-testpaths = ["IBM/tests"]
-
+testpaths = ["IBM/tests", "Quantinuum/tests"]

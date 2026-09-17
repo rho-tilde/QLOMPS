@@ -13,10 +13,11 @@ credentials, or manuscript data.
   completed `ibm_boston` experiment. It includes the exact circuit families,
   physical layouts, measurement decoding and classical directional-parabola
   optimizer.
-- [`Quantinuum/`](Quantinuum/) is reserved for the independently audited H2
-  implementation. It is kept separate because the H2 retrieval history and
-  optimizer variants require their own provenance audit.
+- [`Quantinuum/`](Quantinuum/) contains the independently audited H2-2
+  implementation: the combined full-swap circuit, measurement decoding,
+  shot-frugal coordinate optimizer and an optional QNexus adapter. Its
+  provenance file explicitly separates the clean circuit path from the
+  manually recovered and post-hoc optimizer decisions in the displayed run.
 
-The IBM package is the first reproducibility target. See
-[`IBM/README.md`](IBM/README.md) for the protocol-to-code map.
-
+See each backend's README and provenance file for its protocol-to-code map and
+evidence limits.

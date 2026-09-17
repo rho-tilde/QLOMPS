@@ -23,4 +23,4 @@ data/
 *.npy
 *.csv
 *.jsonl
-
+*.qasm
