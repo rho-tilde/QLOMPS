@@ -107,6 +107,5 @@ python -m pytest
 
 ## License
 
-No explicit software license has currently been assigned to this repository.
-The source is publicly accessible for research transparency and peer review;
-all rights remain with the copyright holders.
+QLOMPS is licensed under the [Apache License 2.0](LICENSE). Copyright 2026
+University College London. See [NOTICE](NOTICE) for the copyright notice.
